@@ -1,0 +1,9 @@
+id: childwelfare
+title: unify child welfare ontology
+github_org: cmconnor
+repo: childwelfare
+import_group:
+  products:
+    - id: ro
+    - id: bfo
+    - id: pato
