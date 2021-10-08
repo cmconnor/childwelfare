@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/childwelfare
+
+idspace: CHILDWELFARE
+base_url: /obo/childwelfare
+
+products:
+- childwelfare.owl: https://raw.githubusercontent.com/cmconnor/childwelfare/main/childwelfare.owl
+- childwelfare.obo: https://raw.githubusercontent.com/cmconnor/childwelfare/main/childwelfare.obo
+
+term_browser: ontobee
+example_terms:
+- CHILDWELFARE_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/cmconnor/childwelfare/v
+
+- prefix: /tracker/
+  replacement: https://github.com/cmconnor/childwelfare/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/CHILDWELFARE?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/cmconnor/childwelfare/main/
