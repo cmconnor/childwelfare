@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: childwelfare/releases/2021-10-08/childwelfare-base.owl
+ontology: childwelfare/childwelfare-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "unify child welfare ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2021-10-08" xsd:string
+
+[Term]
+id: CHILDWELFARE:00000000
+name: root node
+
